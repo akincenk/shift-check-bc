@@ -1,5 +1,8 @@
 # shift-check-bc
 
+[![CI](https://github.com/akincenk/shift-check-bc/actions/workflows/ci.yml/badge.svg)](https://github.com/akincenk/shift-check-bc/actions/workflows/ci.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/akincenk/shift-check-bc/badge)](https://scorecard.dev/viewer/?uri=github.com/akincenk/shift-check-bc)
+
 Check a staff schedule against the hours of work and overtime rules of the British Columbia Employment Standards Act before you post it. It reads the schedule from a CSV file. It lists every shift that breaks a rule or costs extra pay, with the section of the Act it comes from, and shows each person's weekly hours split into regular time, time and a half and double time.
 
 This is a planning aid, not legal advice. See [What it does not cover](#what-it-does-not-cover).
